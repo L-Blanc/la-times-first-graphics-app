@@ -1,14 +1,6 @@
 {% extends '_layouts/base.nunjucks' %}
 
 {% import "_modules/link/link.nunjucks" as link %}
-
-{% block content %}
-<div class="main-container">
-{% block headline %}My headline will go here{% endblock %}
-{% block byline %}By me{% endblock %}
-{% block pubdate %}
-    <time datetime="2020-03-07" pubdate>Mar. 7, 2020</time>
-{% endblock %}
   <div class="yeogurt-info">
     <h1>Welcome to Yeogurt!</h1>
     <p>
